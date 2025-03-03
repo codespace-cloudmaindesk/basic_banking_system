@@ -4,7 +4,7 @@ public class interactive_banking_system {
     public static void main(String[]args) {
         Scanner scanner = new Scanner(System.in);
     
-        System.out.print("Enter your initial account balance: R");
+        System.out.print("Enter your Opening balance: R");
         double balance = scanner.nextDouble();
 
         while (true) {
